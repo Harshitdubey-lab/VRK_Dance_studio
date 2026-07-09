@@ -52,15 +52,15 @@ export default function TrialForm() {
         <form onSubmit={handleSubmit}>
           <div className={styles.formGroup}>
             <label htmlFor="name">Full Name</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your name" style={{ color: "var(--color-midnight)" }} />
+            <input type="text" id="name" name="name" required placeholder="Enter your name" />
           </div>
           <div className={styles.formGroup}>
             <label htmlFor="phone">Phone / WhatsApp Number</label>
-            <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210" style={{ color: "var(--color-midnight)" }} />
+            <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210" />
           </div>
           <div className={styles.formGroup}>
             <label htmlFor="ageGroup">Age Group</label>
-            <select id="ageGroup" name="ageGroup" required style={{ color: "var(--color-midnight)" }}>
+            <select id="ageGroup" name="ageGroup" required>
               <option value="">Select an option</option>
               <option value="kids">Kids (Under 12)</option>
               <option value="teens">Teens (13-19)</option>
@@ -69,7 +69,7 @@ export default function TrialForm() {
           </div>
           <div className={styles.formGroup}>
             <label htmlFor="classInterest">Class Interest</label>
-            <select id="classInterest" name="classInterest" required style={{ color: "var(--color-midnight)" }}>
+            <select id="classInterest" name="classInterest" required>
               <option value="">Select an option</option>
               <option value="dance">Dance (Bollywood, Hip Hop, etc.)</option>
               <option value="fitness">Fitness (Zumba, Aerobics)</option>
@@ -78,11 +78,11 @@ export default function TrialForm() {
           </div>
           <div className={styles.formGroup}>
             <label htmlFor="timing">Preferred Timing</label>
-            <input type="text" id="timing" name="timing" placeholder="e.g. Evening, Morning" style={{ color: "var(--color-midnight)" }} />
+            <input type="text" id="timing" name="timing" placeholder="e.g. Evening, Morning" />
           </div>
           <div className={styles.formGroup}>
             <label htmlFor="message">Any Message</label>
-            <textarea id="message" name="message" rows={2} placeholder="Optional message..." style={{ color: "var(--color-midnight)" }}></textarea>
+            <textarea id="message" name="message" rows={2} placeholder="Optional message..."></textarea>
           </div>
           <button type="submit" className={styles.btnPrimary} style={{ width: "100%", marginTop: "1rem" }} disabled={loading}>
             {loading ? "Submitting..." : "Submit Request"}

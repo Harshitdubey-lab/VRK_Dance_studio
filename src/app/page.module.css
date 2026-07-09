@@ -284,12 +284,18 @@
   padding: 1rem 0;
   border: none;
   border-radius: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  background: transparent;
-  color: var(--color-white);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  background: transparent !important;
+  color: #000000 !important;
   font-family: inherit;
   font-size: 1rem;
   transition: border-color 0.3s ease;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.formGroup input::placeholder,
+.formGroup textarea::placeholder {
+  color: rgba(0, 0, 0, 0.4);
 }
 .formGroup input:focus,
 .formGroup select:focus,
