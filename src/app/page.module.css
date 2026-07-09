@@ -293,6 +293,10 @@
   -webkit-appearance: none;
   appearance: none;
 }
+.formGroup option {
+  color: #000000 !important;
+  background: #ffffff !important;
+}
 .formGroup input::placeholder,
 .formGroup textarea::placeholder {
   color: rgba(0, 0, 0, 0.4);
