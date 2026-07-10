@@ -33,7 +33,7 @@ export default function Timetable() {
           </table>
         </div>
         <div style={{ textAlign: "center", marginTop: "2rem" }}>
-          <a href="https://wa.me/919876543210?text=I want to know the exact timings" target="_blank" rel="noopener noreferrer" className={styles.btnSecondary} style={{ display: "inline-flex" }}>
+          <a href="https://wa.me/917999494608?text=I want to know the exact timings" target="_blank" rel="noopener noreferrer" className={styles.btnSecondary} style={{ display: "inline-flex" }}>
             <MessageCircle size={20} />
             Ask exact timing on WhatsApp
           </a>

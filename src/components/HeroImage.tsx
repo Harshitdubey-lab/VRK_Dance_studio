@@ -10,7 +10,7 @@ export default function HeroImage() {
           Dance, fitness, and stage-ready training in Narmadapuram.
         </p>
         <div className={styles.ctaGroup}>
-          <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className={styles.btnPrimary} style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+          <a href="https://wa.me/917999494608" target="_blank" rel="noopener noreferrer" className={styles.btnPrimary} style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
             <MessageCircle size={20} />
             Book Trial
           </a>

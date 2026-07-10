@@ -30,7 +30,7 @@ export default function WeddingChoreo() {
             ))}
           </ul>
           <a 
-            href="https://wa.me/919876543210?text=I need details for wedding choreography" 
+            href="https://wa.me/917999494608?text=I need details for wedding choreography" 
             target="_blank" 
             rel="noopener noreferrer" 
             className={styles.btnPrimary}

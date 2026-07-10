@@ -28,7 +28,7 @@ export default function Footer() {
           <a href="https://www.instagram.com/vrk_dance_studio/" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
             <Camera size={20} />
           </a>
-          <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
+          <a href="https://wa.me/917999494608" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
             <MessageCircle size={20} />
           </a>
         </div>

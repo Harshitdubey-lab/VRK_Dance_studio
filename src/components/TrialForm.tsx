@@ -19,7 +19,7 @@ export default function TrialForm() {
 
     try {
       const message = `Hello VRK Dance Studio! I would like to book a trial class.\n\n*Name:* ${data.name}\n*Phone:* ${data.phone}\n*Age Group:* ${data.ageGroup}\n*Class Interest:* ${data.classInterest}\n*Preferred Timing:* ${data.timing}\n*Message:* ${data.message || 'None'}`;
-      const phone = "919876543210"; // Studio WhatsApp Number
+      const phone = "917999494608"; // Studio WhatsApp Number
       const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
       
       window.open(whatsappUrl, '_blank');
@@ -56,7 +56,7 @@ export default function TrialForm() {
           </div>
           <div className={styles.formGroup}>
             <label htmlFor="phone">Phone / WhatsApp Number</label>
-            <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210" />
+            <input type="tel" id="phone" name="phone" required placeholder="+91 79994 94608" />
           </div>
           <div className={styles.formGroup}>
             <label htmlFor="ageGroup">Age Group</label>

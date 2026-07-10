@@ -7,7 +7,7 @@ import { MessageCircle, X } from "lucide-react";
 export default function WhatsAppQuickActions() {
   const [open, setOpen] = useState(false);
 
-  const phone = "919876543210";
+  const phone = "917999494608";
   const actions = [
     { label: "Book Trial Class", msg: "I want to book a trial class." },
     { label: "Ask Fees", msg: "Can you share the fee structure?" },
